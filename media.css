@@ -1,0 +1,241 @@
+.hidden-one{
+  display: none;
+}
+@media (min-width:1200px) and (max-width:1440px){
+  .right__div {
+    margin-left: 100px;
+  }
+  .chat__rightDiv{
+    position: relative;
+    left: 130px;
+  }
+  .send{
+    position: relative;
+    left: 550px;
+  }
+  .profile-image{
+    margin-left:45px;
+  }
+  .details{
+    width: 200;
+  }
+  .details .fa{
+    left: 200px;
+  }
+  .hidden-one{
+    display: none;
+  }
+}
+@media (min-width:1000px) and (max-width:1200px) {
+  .right__div {
+    margin-left: 100px;
+  }
+  .chat__rightDiv{
+    position: relative;
+    left: 20px;
+  }
+  .send{
+    position: relative;
+    left: 450px;
+  }
+  .profile-image{
+    margin-left:25px;
+  }
+  .details{
+    width: 200;
+  }
+  .details .fa{
+    left: 150px;
+  }
+  .hidden-one{
+    display: none;
+  }
+}
+@media (min-width:800px) and (max-width:1000px){
+  .right__div {
+    margin-left: 50px;
+  }
+  .chat__rightDiv{
+    position: relative;
+    left: 0px;
+  }
+  .chat__icons{
+    position: relative;
+    left: 150px;
+  }
+  .send{
+    position: relative;
+    left: 250px;
+  }
+  .chat__footer > .fa {
+    font-size: 1.5rem;
+      padding: 10px;
+      color: gray;
+  }
+  .profile-image{
+    margin-left:25px;
+    display: none;
+  }
+  .details{
+    width: 200;
+  }
+  .details .fa{
+    left: 140px;
+  }
+  .hidden-one{
+    display: none;
+  }
+}
+@media (min-width:700px) and (max-width:800px){
+  .right__div {
+    margin-left: 50px;
+  }
+  .chat__rightDiv{
+    position: relative;
+    left: 0px;
+  }
+  .chat__icons{
+    position: relative;
+    left: 50px;
+  }
+  .send{
+    position: relative;
+    left: 180px;
+  }
+  .chat__footer > .fa {
+    font-size: 1.5rem;
+      padding: 10px;
+      color: gray;
+  }
+  .profile-image{
+    display: none;
+  }
+  .details{
+    width: 200;
+  }
+  .details .fa{
+    display: none;
+  }
+  .hidden-one{
+    display: none;
+  }
+}
+@media (min-width:600px) and (max-width:700px){
+  .right__div {
+    margin-left: 100px;
+  }
+  .details{
+    width: 200;
+  }
+  .details .fa{
+    display: none;
+  }
+  .popup-3 .content-3 {
+    position:absolute;
+    top:50%;
+    left:150px;
+    width:300px;
+  }
+  .hidden-one{
+    display: none;
+  }
+  .popup .content {
+    position:absolute;
+    top:50%;
+    left:188px;
+    width: 300px;
+  }
+  .popup .close-btn {
+    position:absolute;
+    right:265px;
+  }
+  .popup-2 .content-2 {
+    position:absolute;
+    top:50%;
+    left:150px;
+    width:300px;
+ }
+ .popup-4 .content-4 {
+   position:absolute;
+   top:50%;
+   left:150px;
+   width:300px;
+ }
+ .popup-5 .content-5 {
+   position:absolute;
+   top:50%;
+   left:150px;
+   width:300px;
+ }
+ .popup-6 .content-6 {
+   position:absolute;
+   top:50%;
+   left:150px;
+   width:300px;
+ }
+}
+@media (min-width:0) and (max-width:600px){
+  .chats{
+    display:none;
+  }
+  .sideBar {
+    background-color: #ededed;
+    min-width: 400px;
+  }
+  .whatsapp__background {
+    width: 80%;
+  }
+  .popup .content {
+    position:absolute;
+    top:50%;
+    left:240px;
+  }
+  .popup-3 .content-3 {
+    position:absolute;
+    top:50%;
+    left:210px;
+    width:440px;
+  }
+  .popup-2 .content-2 {
+    position:absolute;
+    top:50%;
+    left:213px;
+    width:425px;
+ }
+  .popup-4 .content-4 {
+    position:absolute;
+    top:50%;
+    left:213px;
+    width:425px;
+  }
+  .popup-5 .content-5 {
+    position:absolute;
+    top:50%;
+    left:213px;
+    width:425px;
+  }
+  .popup-6 .content-6 {
+    position:absolute;
+    top:50%;
+    left:213px;
+    width:425px;
+  }
+  .status_statusbar{
+    display: none;
+    flex:0;
+  }
+  .status_sidebar{
+  border: 2px solid white;
+  height: 630px;
+  width: 500px;
+  background-color:#343A40;
+  display: none;
+  }
+  .statuspopup{
+    text-align: left;
+    padding-left: 100px;
+    color: black;
+    font-size: 15px;
+  }
+
+}
